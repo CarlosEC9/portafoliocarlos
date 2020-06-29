@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 15px;
+	color: #FFF;
+}
+
+header{
+	background-color: transparent;
+	padding: 20px 0;
+	position: absolute;
+	color: #236BEB;
+	width: 100%;
+	z-index: 999999;
+}
+
+h11{
+	font-family:'Noto Sans JP', sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	font-weight: 700; 
+}
+
+.lista-redes i{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #ddd;
+	border-radius: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+.lista-redes .nav-link{
+	padding-right: 5px !important;	
+}
+
+.lista-redes li:first-child i{
+	background-color: #2E73E8;
+}
+
+.lista-redes li:nth-child(2) i{
+	background-color: #1DA1F2;
+}
+
+.lista-redes li:last-child i{
+	background-color: #EA4C89;
+}
+
+#testimonial{
+	background-image: url("../img/Testimonial-BG.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	color: #fff;
+}
+
+#proyectos-destacados{
+	background-image: url("../img/headway-5QgIuuBxKwM-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color:#FFF;
+	padding: 20% 0%;
+	text-align: center;
+}
+
+#proyectos-destacados h1{
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px 2px #000;
+}
+
+#proyectos-destacados img{
+	padding-top: 30%;
+}
+
+.section{
+	padding: 60px;
+}
+
+#acerca img{
+	width: 92%;
+	height: 90%;
+}
+
+.titulo{
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 50px;
+	color: #000;
+	font-weight: 600;
+	padding-top: 40px;
+	padding-left: 200px;
+}
+
+.info-acerca{
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+#acerca p{
+	padding-top: 80px;
+	text-align: justify;
+}
+
+#servicios h2{
+	padding-right: 160px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.servicios-ofrecidos h4{
+	font-size: 30px;
+	color: #000;
+	font-weight: 600;
+}
+
+#servicios .carousel-item{
+	height: 500px; 
+}
+
+#slides .carousel-caption{
+	display: grid;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.circulo{
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	line-height: 100px;
+	/*border: 1px solid #ddd;*/
+	display:block;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 15px 0px #ddd;
+	font-size: 150px;
+	color: #E5E561;
+}
+
+.circulo:hover{
+	box-shadow: 0px 0px 5px 0px #ddd;
+}
+
+.servicios-ofrecidos i{
+	font-size: 150px;
+	margin-bottom: 15px;
+	padding-top: 20%;
+}
+
+.servicios-ofrecidos-2 h4{
+	font-size: 30px;
+	color: #000;
+	font-weight: 600;
+}
+
+.servicios-ofrecidos-2 i{
+	color: #636060;
+	font-size: 150px;
+	margin-bottom: 15px;
+	padding-top: 20%;
+}
+
+.servicios-ofrecidos-3 h4{
+	font-size: 30px;
+	color: #000;
+	font-weight: 600;
+}
+
+.servicios-ofrecidos-3 i{
+	color: #000;
+	font-size: 150px;
+	margin-bottom: 15px;
+	padding-top: 20%;
+}
+
+.servicios-ofrecidos-4 h4{
+	font-size: 30px;
+	color: #000;
+	font-weight: 600;
+}
+
+.servicios-ofrecidos-4 i{
+	color: #E4782E;
+	font-size: 150px;
+	margin-bottom: 15px;
+	padding-top: 20%;
+}
+
+.servicios-ofrecidos-5 h4{
+	font-size: 30px;
+	color: #000;
+	font-weight: 600;
+}
+
+.servicios-ofrecidos-5 i{
+	color: #3387C4;
+	font-size: 150px;
+	margin-bottom: 15px;
+	padding-top: 20%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: transparent;
+    background-color: #000;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#portafolio h2{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 250px;
+}
+
+#fila2{
+	padding-top: 2%;
+}
+
+#hero-contacto{
+	background-image: url("../img/julian-hochgesang-psGV5KhidlY-unsplash.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+	padding-top: 15%;
+	text-align: center;
+	color: #fff;
+}
+
+#hero-contacto h2{
+	text-align: center;
+	font-size: 100px;
+	color: #FFF;
+	padding-right: 120px;
+}
+
+.bg-contacto .circulo{
+	background-color: #3045F0;
+	color: #fff;
+	box-shadow: none;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 24px;
+	transition: all 0.3 ease-in;
+}
+
+.bg-contacto .circulo:hover{
+	background-color: #fff;
+	color: #3370e7;
+	transition: all 0.3 ease-in;
+}
+
+form#contacto input{
+	background-color: #F1F2F3;
+	border-radius: 0;
+	padding: 20px;
+	border: 0;
+	font-size: 13px;
+}
+
+form#contacto textarea{
+	background-color: #F1F2F3;
+	border-radius: 0;
+	padding: 20px;
+	border: 0;
+	font-size: 13px;
+}
+
+#contact-form h2{
+	color: #000;	
+}
+
+#contact-form ul{
+	color: #000;
+}
+
+#contact-map .container{
+	margin-top: -10%;
+}
+
+#contact-form{
+	margin-bottom: 5%;
+}
+
+#contact i{
+	font-size: 40px;
+	align-content: center;
+}
+
+#contact{
+	padding-top: 30px;
+	color: #000;
+	text-align: center;
+}
+
+#contact h4{
+	font-size: 30px;
+	font-weight: 600;
+	padding-bottom: 15px;
+}
+
+#contact p{
+	font-size: 15px;
+}
+
+footer{
+	background-color: #121212;
+	padding: 30px 0;
+	color: #fff;
+	font-size: 13px;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	padding-right: 15px;
+}
+
+footer ul li a{
+	color: #fff;
+	font-size: 16px;
+}
+
